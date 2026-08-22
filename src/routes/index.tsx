@@ -21,7 +21,8 @@ import {
 
 import { BuyButton } from "@/components/BuyButton";
 import { hasCheckout } from "@/lib/checkout";
-import heroMockup from "@/assets/hero-mockup.jpg";
+import heroMockup from "@/assets/hero-mockup-new.jpg";
+import logo from "@/assets/logo.png";
 import kidLearning from "@/assets/kid-learning.jpg";
 
 export const Route = createFileRoute("/")({
