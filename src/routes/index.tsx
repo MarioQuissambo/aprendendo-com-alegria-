@@ -164,9 +164,13 @@ function TopBar() {
     <header className="sticky top-0 z-40 border-b border-border/60 bg-background/85 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-5 py-3">
         <div className="flex items-center gap-2">
-          <span className="grid size-9 place-items-center rounded-xl bg-primary text-primary-foreground">
-            <Sparkles className="size-5" />
-          </span>
+          <img
+            src={logo}
+            alt="Aprendendo com Alegria"
+            width={36}
+            height={36}
+            className="size-9 rounded-xl object-contain"
+          />
           <span className="font-display text-lg font-extrabold leading-none text-ink">
             Aprendendo com Alegria!
           </span>
